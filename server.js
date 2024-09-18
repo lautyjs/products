@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 import morgan from "morgan";
 import { engine } from "express-handlebars";
 import {router as usuariosRouter} from './src/routers/usuariosRouter.js'
-import {router as productsRouter} from './src/routers/productsRouter.js'
+import {router as productsRouter} from "./src/routers/productsRouter.js";
 
 import indexRouter from "./src/routers/index.router.js";
 import socketCb from "./src/routers/index.socket.js";

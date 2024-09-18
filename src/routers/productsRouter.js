@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { productsManager } from "../dao/ProductsManager.js";
 import { isValidObjectId } from "mongoose";
+
 export const router=Router()
 
 router.get('/', async(req,res)=>{

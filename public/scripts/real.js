@@ -1,6 +1,6 @@
 const socket = io();
-socket.on("products", (data) => {
-  //console.log(data)
+socket.on("users", (data) => {
+  console.log(data)
   const template = data
     .map(
       (each) =>
